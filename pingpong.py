@@ -18,10 +18,10 @@ border.goto(500, -300)
 border.goto(-500, -300)
 border.goto(-500, 300)
 border.end_fill()
-
 border.goto(0, 300)
 border.color("white")
 border.setheading(270)
+
 for i in range(25):
     if i % 2 == 0:
         border.forward(24)
